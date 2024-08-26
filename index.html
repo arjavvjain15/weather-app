@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyWeatherInfo
+    </title>
+    <link rel="icon" href="wthr.jpeg">
+    <link rel="stylesheet" href="styl.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+<body>
+    <div class="navbar">
+        <div class="name">MyWeatherInfo <i class="fa-solid fa-sun"></i></div>
+        <div class="options">
+            <p>About Us  </p>
+            <p> Contact Us  </p>
+            <p> Login</p>
+            <p>Support</p>
+            <p>Help</p>
+        </div>
+        <div class="icons">
+        <p><i class="fa-solid fa-user"></i></p>
+        <p><i class="fa-solid fa-filter"></i></p>
+        <p><i class="fa-solid fa-layer-group"></i></p>
+        </div>
+    </div>
+    <div class="searchbtn">
+        <input style="color: white;" type="text" placeholder="Enter Your City"  spellcheck="false">
+        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+    <br>
+    <br>
+    <div class="result">Weather Information for INDORE</div>
+    
+    <br> <br> <br>
+    <div class="section">
+        <div class="opts">
+            <div class="box1">
+                <p>Temperature</p>
+                <p id="tempp">25°C</p>
+                <div class="info">
+                <p id="fl">Feels Like 29°C</p>
+                <p id="ti">Temperature is 25°C</p>
+            </div>
+            </div>
+            <div class="box2">
+               <p>Humidity</p>
+               <p id="humid">80%</p>
+               <div class="info">
+               <p id="atm">Pressure is 1 atm</p>
+                <p id="hi">Humidity is 80%</p>
+            </div>
+            </div>
+            <div class="box3">
+                <p>Wind</p>
+                <p id="wind">10 Km/Hr</p>
+                <div class="info">
+                <p id="sr">Sunrise at 6:00 AM</p>
+                <p id="ss">Sunset at 6:30 PM</p>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="w.js"></script>
+</body>
+</html>
