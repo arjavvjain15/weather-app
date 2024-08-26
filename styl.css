@@ -9,6 +9,7 @@ body{
     background-image: url('bg.jpeg');
     background-size: cover;
     height: 700px;
+    background-repeat:no-repeat
 }
 .navbar{
 height: 70px;
